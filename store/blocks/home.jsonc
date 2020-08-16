@@ -1,9 +1,16 @@
 {
   "store.home": { 
     "blocks": [
+      "rich-text",
       "info-card#button-right",
       "info-card#button-left"
     ]
+  },
+  "rich-text": {
+    "props": { 
+      "text": "**Hello, World!**",
+      "textPosition": "RIGHT"
+    }
   },
   "info-card#button-right": {
     "props": {
@@ -16,7 +23,8 @@
       "callToActionText": "Explore",
       "callToActionUrl": "/sale/d",
       "textAlignment": "center"
-    }},"info-card#button-left": {
+    }
+  },"info-card#button-left": {
     "props": {
       "isFullModeStyle": false,
       "textPosition": "left",
